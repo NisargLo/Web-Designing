@@ -1,0 +1,1 @@
+Lab-6 & Lab-7 (External) programs are same, so there is only 1 Style-Sheet between them. It is in folder 'Lab 06' .

@@ -4,38 +4,67 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>L4-C</title>
+	<style>
+		.fieldsetborder{
+			border: 20px solid darkblue;
+			border-radius: 15px;
+		}
+		.createaccount{
+			max-width: 100%;
+			height: 50px;
+			background-color: rgb(255, 227, 174);
+			font-size: 35px;
+			border: 1px solid rgb(255, 227, 174);
+			border-radius: 5px;
+		}
+		.t{
+			color: rgb(0, 134, 89);
+			font-weight: bold;
+		}
+		.b{
+			background-color: rgb(7, 150, 102);
+			border: 2px solid rgb(7, 150, 102);
+			border-radius: 5px;
+			color: white;
+		}
+		.box{
+			width: 50%;
+		}
+	</style>
 </head>
 <body>
 	<div align="center">
 <form method="post">
-<fieldset style="width: fit-content;">
-<h2 align="center">Create Account</h2><br>
+<fieldset style="width: fit-content;" class="fieldsetborder">
+<div align="center" class="createaccount">
+	Create Account
+</div><br>
 <table width="550px" align="center">
 <tr>
-	<td>First Name *</td>
-	<td>Last Name</td>
+	<td class="t box">First Name *</td>
+	<td class="t">Last Name</td>
 </tr>
 <tr>
-	<td><input type="text" placeholder="enter your first name"></td>
-	<td><input type="text" placeholder="enter your last name"></td>
+	<td><input type="text" placeholder="enter your first name" style="width: 90%;"></td>
+	<td><input type="text" placeholder="enter your last name" style="width: 90%;"></td>
 </tr>
 <tr>
-	<td>E-Mail *</td>
+	<td class="t">E-Mail *</td>
 </tr>
 <tr>
 	<td colspan="3"><input type="email" placeholder="enter your e-mail"></td>
 </tr>
 <tr>
-	<td>Password *</td>
-	<td>Confirm Password *</td>
+	<td class="t">Password *</td>
+	<td class="t">Confirm Password *</td>
 </tr>
 <tr>
-	<td><input type="Password" placeholder="enter your password"></td>
-	<td><input type="Password" placeholder="enter your password again"></td>
+	<td><input type="Password" placeholder="enter your password" style="width: 90%;"></td>
+	<td><input type="Password" placeholder="enter your password again" style="width: 90%;"></td>
 </tr>
 <tr>
-	<td>Gender :</td>
-	<td>Hobbies :</td>
+	<td class="t">Gender :</td>
+	<td class="t">Hobbies :</td>
 </tr>
 <tr>
 	<td><input type="radio" name="g">Male
@@ -46,31 +75,35 @@
 		<input type="checkbox">Movies</td>
 </tr>
 <tr>
-	<td>Source of Income :</td>
-	<td>Income :</td>
+	<td class="t">Source of Income :</td>
+	<td class="t">Income :</td>
 </tr>
 <tr>
-	<td><select><option>Employed</option>
+	<td><select style="width: 90%; height: 30px;"><option>Employed</option>
 				<option>Unemployed</option></select></td>
-	<td><input type="range" min="0" max="100000"></input>
-		<button>20K</button></td>
+	<td><input type="range" min="0" max="100000" style="width: 75%;"></input>
+		<button class="b">20K</button></td>
 </tr>
 <tr>
-	<td>Upload Profile Picture :</td>
-	<td>Age :</td>
+	<td class="t">Upload Profile Picture :</td>
+	<td class="t">Age :</td>
 </tr>
 <tr>
 	<td><input type="file"></td>
-	<td><input type="number"></td>
+	<td><input type="number" style="width: 90%;"></td>
 </tr>
 <tr>
-	<td>Bio :</td>
+	<td class="t">Bio :</td>
 </tr>
 <tr>
-	<td colspan="2" width="100px"><textarea></textarea></td>
+	<td colspan="2" width="100px"><textarea style="width: 95%; height: 55px;"></textarea></td>
 </tr>
-<tr align="right">
-	<td colspan="2"><hr><button>Create</button></td>
+<tr align="right" height="20px">
+	<td colspan="2"><hr>
+		<div class="createaccount" style="padding-right: 15px;">
+			<button class="b">Create</button>
+		</div>
+	</td>
 </tr>
 </table>
 </fieldset>
