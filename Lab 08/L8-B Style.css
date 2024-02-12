@@ -1,0 +1,209 @@
+.wholebody{
+     background-image: url('./../Lab Media/background-template1.jpg');
+     background-size: contain;
+     background-repeat: round;
+     width: 1300px;
+     height: 1500px;
+}
+.photoperson{
+     background-color: #e5e4eb;
+     background-size: contain;
+     background-repeat: round;
+     width: 1175px;
+     height: 630px;
+     margin: 90px 60px 0px 60px;
+     float: left;
+}
+.search{
+     float: right;
+     margin: 25px 55px 0px 30px;
+     
+}
+.button1{
+     border: 1px whitesmoke solid;
+     border-radius: 15px 0px 0px 15px;
+     background-color: whitesmoke;
+     height: 40px;
+     width: 160px;
+     text-align: center;
+     font-size: 17px;
+}
+.button2{
+     border: 2px brown solid;
+     border-radius: 0px 15px 15px 0px;
+     background-color: brown;
+     color: white;
+     height: 40px;
+     width: 70px;
+     text-align: center;
+     font-size: 17px;
+}
+.image{
+     float: right;
+     margin-top: 30px;
+     margin-right: 20px;
+}
+.navigationhome{
+     float: left;
+     margin-top: 40px;
+     margin-left: 200px;
+     font-size: 28px;
+     color: rgb(21, 21, 131);
+}
+.navigationother{
+     float: left;
+     margin-top: 40px;
+     margin-left: 40px;
+     font-size: 28px;
+     color: rgb(21, 21, 131);
+}
+.navigationcontact{
+     float: left;
+     margin-top: 40px;
+     margin-left: 40px;
+     font-size: 28px;
+     color: rgb(21, 21, 131);
+}
+.text1{
+     float: left;
+     margin-top: 150px;
+     font-size: 27px;
+     margin-left: 100px;
+     margin-right: 200px;
+}
+.text2{
+     float: left;
+     margin-top: 30px;
+     font-size: 50px;
+     margin-left: 100px;
+     margin-right: 200px;
+}
+.text3{
+     float: left;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+.button3{
+     border: 2px brown solid;
+     border-radius: 25px 25px 25px 25px;
+     background-color: brown;
+     color: white;
+     height: 40px;
+     width: 90px;
+     text-align: center;
+     font-size: 17px;
+     float: left;
+     margin-left: 100px;
+     margin-top: 50px;
+}
+.bottombody{
+     background-color: rgb(249, 234, 207);
+     background-size: contain;
+     background-repeat: round;
+     width: 1175px;
+     height: 700px;
+     margin: 0px 60px 50px 60px;
+     float: left;
+}
+.companieslogos{
+     float: left;
+     margin-top: 50px;
+     margin-left: 74px;
+}
+.text4{
+     float: left;
+     margin-top: 70px;
+     margin-left: 150px;
+     margin-right: 0px;
+     font-size: 95px;
+}
+.text5{
+     float: right;
+     margin-top: 70px;
+     margin-left: 250px;
+     margin-right: 100px;
+     font-size: 30px;
+}
+.text6{
+     float: left;
+     font-size: 20px;
+     position: absolute;
+     top: 1115px;
+     left: 200px;
+}
+.icon1{
+     float: right;
+     width: 200px;
+     height: 250px;
+     border: 5px black solid;
+     border-radius: 10px;
+     margin-top: 60px;
+     margin-right: 60px;
+     background-color: aliceblue;
+}
+.bottomimg1{
+     float: left;
+     margin-top: 80px;
+     margin-left: 50px;
+     border-radius:10px;
+     border: 2px black solid;
+}
+.icontext1{
+     float: left;
+     margin-top: 20px;
+     margin-left: 15px;
+     font-size: 25px;
+}
+.icon2{
+     float: right;
+     width: 200px;
+     height: 250px;
+     border: 5px black solid;
+     border-radius: 10px;
+     margin-top: 60px;
+     margin-right: 40px;
+     background-color: aliceblue;
+}
+.bottomimg2{
+     float: left;
+     margin-top: 80px;
+     margin-left: 50px;
+     border-radius:10px;
+     border: 2px black solid;
+}
+.icontext2{
+     float: left;
+     margin-top: 20px;
+     margin-left: 15px;
+     font-size: 25px;
+}
+.icon3{
+     float: right;
+     width: 200px;
+     height: 250px;
+     border: 5px black solid;
+     border-radius: 10px;
+     margin-top: 60px;
+     margin-right: 40px;
+     background-color: black;
+     color: white;
+}
+.subicontext3{
+     float: left;
+     margin-top: 15px;
+     margin-left: 15px;
+}
+.bottomimg3{
+     float: left;
+     margin-top: 80px;
+     margin-left: 50px;
+     border-radius:10px;
+}
+.icontext3{
+     float: left;
+     margin-top: 20px;
+     margin-left: 15px;
+     font-size: 25px;
+}
