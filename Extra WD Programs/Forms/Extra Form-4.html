@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Extra Form - 4</title>
+</head>
+<body>
+<center>
+	<h1>Student Registration</h1><br>
+	<fieldset>
+		<legend align="center">Personal Information</legend>
+	<form method="post" action="https://wikipedia.org">
+		<table align="center" cellpadding="10px">
+			<tr>
+				<td>Name* :</td>
+				<td><input type="text" placeholder="Enter your Name">
+				<td>Password* :</td>
+				<td><input type="password" placeholder="Enter your Password">
+			</tr>
+			<tr>
+				<td>E-Mail* :</td>
+				<td colspan="4"><input type="email" placeholder="Enter your Name" size="75px">
+			</tr>
+			<tr>
+				<td>Mobile Number :</td>
+				<td><input type="text" pattern="[0-9]{10}" placeholder="Enter your Mobile Number">
+				<td>Date of Birth :</td>
+				<td><input type="Date"></td>
+			</tr>
+			<tr>
+				<td valign="top">Gender :</td>
+				<td valign="top">
+					<input type="radio" name="g" value="m"> Male<br>
+					<input type="radio" name="g" value="f"> Female</td>
+				<td valign="top">Hobies :</td>
+				<td valign="top">
+					<input type="checkbox" value="r"> Reading<br>
+					<input type="checkbox" value="si"> Singing<br>
+					<input type="checkbox" value="c"> Cricket<br>
+					<input type="checkbox" value="sw"> Swimming</td>
+			</tr>
+			<tr>
+				<td>CGPA :</td>
+				<td colspan="3"><input type="range" min="0" max="10" value="10">
+					<button>10.00</button> 
+					OR 
+					<input type="text" size="2px"></td>
+			</tr>
+			<tr>
+				<td>Incert Resume :</td>
+				<td colspan="3"><input type="file" value="f"></td>
+			</tr>
+			<tr>
+				<td>LinkedIn URL :</td>
+				<td colspan="3">
+					<input type="text" placeholder="Please enter URL" size="75px">
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="4">
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button></td>
+			</tr>
+		</table>
+	</form>
+	</fieldset><br><br><br><br>
+	</center>
+	Comments :<br><textarea rows="5px" cols="155px" placeholder="Please enter some Suggesstions"></textarea>
+</body>
+</html>
