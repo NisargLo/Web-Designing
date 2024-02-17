@@ -1,0 +1,1 @@
+For optimization, all Media (Photo, Video, Audio etc...) required for this repository is there in folder 'Lab Media'.
