@@ -1,0 +1,70 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    animation: border 15s ease-in-out 2s infinite reverse ;
+}
+.text{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70%;
+    margin-left: 30%;
+    animation: text 15s ease-in-out 2s infinite reverse ;
+}
+@keyframes border{
+    0%{
+        margin-top: 5%;
+        margin-left: 2%;
+        border: 5px rgb(193, 78, 65) solid;
+    }
+    25%{
+        margin-top: 5%;
+        margin-left: 85%;
+        border: 5px rgb(51, 163, 92) solid;
+    }
+    50%{
+        margin-top: 30%;
+        margin-left: 85%;
+        border: 5px rgb(194, 202, 72) solid;
+    }
+    75%{
+        margin-top: 30%;
+        margin-left: 2%;
+        border: 5px royalblue solid;
+    }
+    100%{
+        margin-top: 5%;
+        margin-left: 2%;
+        border: 5px rgb(193, 78, 65) solid;
+    }
+}
+@keyframes text{
+    0%{
+        margin-top: 40%;
+        margin-left: 0%;
+        color: rgb(193, 78, 65);
+    }
+    25%{
+        margin-top: 40%;
+        margin-left: 0%;
+        color: rgb(51, 163, 92);
+    }
+    50%{
+        margin-bottom: 40%;
+        margin-left: 0%;
+        color: rgb(194, 202, 72);
+    }
+    75%{
+        margin-bottom: 40%;
+        margin-left: 0%;
+        color: royalblue;
+    }
+    100%{
+        margin-top: 40%;
+        margin-left: 0%;
+        color: rgb(193, 78, 65);
+    }
+}
