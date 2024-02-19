@@ -1,0 +1,33 @@
+<!-- Animation of Loading ... -->
+
+<!DOCTYPE html>
+<html>
+     <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Lab-9-C</title>
+     <style>
+          .loader {
+               border: 20px solid #f3f3f3;
+               border-radius: 50%;
+               border-top: 20px solid #27a7fc;
+               width: 150px;
+               height: 150px;
+               animation: spin 2s linear infinite;
+               margin-top: 300px;
+               margin-left: 600px;
+          }
+          @keyframes spin {
+               0% { 
+                    transform: rotate(0deg); 
+               }
+               100% { 
+                    transform: rotate(360deg); 
+               }
+          }
+          </style>
+     </head>
+     <body bgcolor="black">
+          <div class="loader">
+          </div>
+     </body>
+</html>
