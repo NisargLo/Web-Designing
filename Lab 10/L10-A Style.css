@@ -89,82 +89,28 @@
 
 @media screen and (min-width: 600px) and (max-width: 1270px){
 	.e1{
-		padding: 15px;
-		font-size: 30px;
-		color: white;
 		width: 410px;
-		height: 30px;
-		background-color: #000000;
-		float: left;
-		margin-bottom: 40px;
-		margin-left: 15px;
 	}
 	.e2{
-		padding: 15px;
-		font-size: 30px;
-		color: white;
 		width: 410px;
-		height: 30px;
-		background-color: #000000;
-		float: left;
-		margin-bottom: 40px;
-		margin-left: 15px;
 	}
 	.e3{
-		padding: 15px;
-		font-size: 30px;
-		color: white;
 		width: 410px;
-		height: 30px;
-		background-color: #000000;
-		float: left;
-		margin-left: 15px;
 	}
 }
 @media screen and (min-width: 300px) and (max-width: 970px) {
 	.sb{
-		padding: 15px;
-		background-color: black;
-		color: white;
 		width: 120px;
-		height: 230px;
-		float: right;
-		margin-right: 25px;
-		font-size: 30px;
-		margin-top: 60px;
 	}
 }
 @media screen and (min-width: 200px) and (max-width: 700px){
 	.e1{
-		padding: 15px;
-		font-size: 30px;
-		color: white;
 		width: 160px;
-		height: 30px;
-		background-color: #000000;
-		float: left;
-		margin-bottom: 40px;
-		margin-left: 15px;
 	}
 	.e2{
-		padding: 15px;
-		font-size: 30px;
-		color: white;
 		width: 160px;
-		height: 30px;
-		background-color: #000000;
-		float: left;
-		margin-bottom: 40px;
-		margin-left: 15px;
 	}
 	.e3{
-		padding: 15px;
-		font-size: 30px;
-		color: white;
 		width: 160px;
-		height: 30px;
-		background-color: #000000;
-		float: left;
-		margin-left: 15px;
 	}
 }
