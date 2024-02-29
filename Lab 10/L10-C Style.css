@@ -1,5 +1,6 @@
 *{
      font-size: 30px;
+     box-sizing: border-box;
 }
 header{
      background-color: black;
@@ -10,7 +11,7 @@ header{
 .textbox{
      font-size: 45px;
      width: 170px;
-     height: 450px;
+     height: 750px;
      margin: 5px;
      padding-left: 15px;
      float: left;
@@ -101,32 +102,84 @@ footer{
      .redheader{
           width: 600px;
           text-align: left;
-          background-color: darkred;
-          height: 60px;
-          float: left;
-          margin: 5px;
+          margin-right: 0px;
+          margin-right: 130px;
+     }
+     .textheaderandfooter{
+          width: 600px;
+          text-align: center;
+     }
+     .bluenavigation{
+          width: 600px;
           margin-right: 150px;
      }
      .yellowcontent1{
-          background-color: yellow;
-          float: left;
-          height: 320px;
-          width: 200px;
-          text-align: center;
+          width: 340px;
+     }
+     .greenbody{
+          margin: 5px 235px 5px 10px;
+          width: 250px;
      }
      .yellowcontent2{
-          background-color: yellow;
-          float: left;
           margin: 5px 5px 5px 0px;
           height: 90px;
-          width: 120px;
+          width: 260px;
      }
      .lightbluefooter{
-          background-color: rgb(0, 148, 197);
-          width: 300px;
-          height: 60px;
-          float: left;
-          margin: 5px;
-          margin-right: 150px;
+          width: 600px;
+     }
+}
+@media screen and (min-width:650px) and (max-width:1045px) {
+     .textbox{
+          width: 110px;
+          height: 550px;
+     }
+     .text{
+          left: 0px;
+     }
+     .redheader{
+          width: 450px;
+          text-align: left;
+          margin-right: 0px;
+          margin-right: 130px;
+     }
+     .textheaderandfooter{
+          width: 450px;
+          text-align: center;
+     }
+     .bluenavigation{
+          width: 450px;
+          margin-right: 200px;
+     }
+     .yellowcontent1{
+          width: 265px;
+     }
+     .greenbody{
+          margin: 5px 290px 5px 10px;
+          width: 175px;
+     }
+     .yellowcontent2{
+          margin: 5px 5px 5px 0px;
+          height: 90px;
+          width: 185px;
+     }
+     .lightbluefooter{
+          width: 450px;
+          margin-right: 120px;
+          margin-left: 125px;
+     }
+}
+@media screen and (min-width:600px) and (max-width:885px) {
+     .redheader{
+          margin-right: 50px;
+     }
+     .bluenavigation{
+          margin-right: 50px;
+     }
+     .greenbody{
+          margin: 5px 120px 5px 10px;
+     }
+     .lightbluefooter{
+          margin-right: 50px;
      }
 }
