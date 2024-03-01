@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+body{
+    height: 100vh;
+    width:100%;
+    background:linear-gradient(to bottom,white,pink,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ontop{
+    height: 75%;
+    width:75%;
+    background-color: white;
+    display: flex;
+}
+.bigimage{
+    height:100%;
+    width:50%;
+    background-color: red;
+    background-image:url("https://www.indianfabrico.com/wp-content/uploads/2022/09/Multicolor-Premium-Floral-Jaal-Handblock-Printed-King-Size-Bedsheet-108x108-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    }
+.imageinfo{
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnp1{
+    height:20%;
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnp2{
+    height:20%;
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p1{
+    height: 70%;
+    width:100%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:3px;
+}
+
+.p2{
+    height: 30%;
+    width:100%;
+    background-color: yellow;
+}
+
+.p1 div{
+}
+
+.l1{
+    color: blue;
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+.l2{
+    color:grey;
+}
+
+.l3{
+    font-weight: bolder; 
+    font-size: 25px;
+    line-height: 35px;
+}
+.l5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#l5b1{
+    width:150px;
+    height:25px;
+}
+#l5b2{
+    width:150px;
+    height:25px;
+    background-color: lightgrey;
+}
+
+.l7 button{
+    border-radius: 25px;
+    border: 1px solid grey;
+    background-color: white;
+    width:15%;
+}
+
+.l9{
+    display: flex;
+    gap:15px;
+}
+
+.l9 div{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.l9:nth-child(1){
+    background-color:green;
+}
+
+.l9:nth-child(2){
+    background-color:pink;
+}
+
+.l9:nth-child(3){
+    background-color:white;
+}
+
+.l9:nth-child(4){
+    background-color:whitesmoke;
+}
+
+.l11{
+    display: flex;
+    gap:25px;
+
+}
+.l11 div{
+    width:75px;
+    border:1px solid grey;
+    border-radius:25px ;
+}
+
+.p2p1{
+    height:50%;
+    width:100%;
+    background-color: red;
+}
+.p2p2{
+    height:50%;
+    width:100%;
+    background-color: green;
+}

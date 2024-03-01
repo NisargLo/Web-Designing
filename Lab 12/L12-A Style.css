@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.link:link{
+    color: orange;
+}
+.link:visited{
+    color: red;
+}
+.para::first-line{
+    color: rgb(2, 178, 119);
+    font-size: 30px;
+}
+.para::first-letter{
+    color: brown;
+    font-size: 60px;
+}
+.para::selection{
+    background-color: yellow;
+}
+.button:hover{
+    color: azure;
+    background-color: rgb(102, 0, 255);
+    animation: OnHover 10s ease-in-out 0s infinite alternate;
+    border: 1px solid rgb(102, 0, 255);
+    border-radius: 20px;
+}
+@keyframes OnHover {
+    from{
+        transform: scale(1);
+    }
+    to{
+        margin-top: 10%;
+        transform: scale(6);
+    }
+}
