@@ -1,13 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .b1{
-    max-width: 520px;
+    width: 520px;
     height: 400px;
     background-image: linear-gradient(direction, color-stop1, color-stop2);
-    margin-top: 50px;
+    margin-top: 10%;
+    background-image: linear-gradient(to bottom, red, yellow);
 }
-
 .b2{
-    max-width: 520px;
+    width: 520px;
     height: 400px;
-    background-color: black;
-    margin-top: 50px;
+    margin-top: 10%;
+    background-image: radial-gradient(ellipse at center,red,yellow,green);
 }
