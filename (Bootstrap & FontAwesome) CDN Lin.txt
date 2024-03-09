@@ -11,6 +11,6 @@ BootStrap CDN Link :-
 FontAwesome CDN Link :-
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-(Note : In class try starting with both 'fa' & 'fab')
+(Note : In class attribute, try starting with both 'fa' & 'fab')
 
 https://fontawesome.com/search
