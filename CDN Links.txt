@@ -34,7 +34,7 @@ Other FontAwesome CDN Link :-
 
 
 
-Google Fonts :-
+Google Fonts CDN Link :-
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
