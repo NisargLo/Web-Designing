@@ -1,3 +1,6 @@
+:root{
+     --darkblue : rgb(21, 21, 131);
+}
 .wholebody{
      background-image: url('./../Lab Media/background-template1.jpg');
      background-size: contain;
@@ -48,21 +51,21 @@
      margin-top: 40px;
      margin-left: 200px;
      font-size: 28px;
-     color: rgb(21, 21, 131);
+     color: var(--darkblue);
 }
 .navigationother{
      float: left;
      margin-top: 40px;
      margin-left: 40px;
      font-size: 28px;
-     color: rgb(21, 21, 131);
+     color: var(--darkblue);
 }
 .navigationcontact{
      float: left;
      margin-top: 40px;
      margin-left: 40px;
      font-size: 28px;
-     color: rgb(21, 21, 131);
+     color: var(--darkblue);
 }
 .text1{
      float: left;

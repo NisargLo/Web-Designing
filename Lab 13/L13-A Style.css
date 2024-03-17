@@ -1,5 +1,8 @@
+:root{
+    --green : rgb(96, 255, 96);
+}
 header{
-    border-bottom: 10px solid rgb(29, 238, 29);
+    border-bottom: 10px solid var(--green);
     background-color: rgb(177, 124, 58);
     height: 21vh;
 }
@@ -16,7 +19,7 @@ header{
     margin: 2% 0% 0% 2%;
 }
 .shopifytext{
-    color: rgb(96, 255, 96);
+    color: var(--green);
     font-size: 20px;
     margin-top: 2%;
     margin-left: 2%;
