@@ -1,7 +1,7 @@
 :root{
      --darkblue : rgb(21, 21, 131);
 }
-.wholebody{
+body{
      background-image: url('./../Lab Media/background-template1.jpg');
      background-size: contain;
      background-repeat: round;
