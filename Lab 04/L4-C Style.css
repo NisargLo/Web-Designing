@@ -1,3 +1,8 @@
+*{
+     box-sizing: border-box;
+     padding: 0px;
+     margin: 0px;
+}
 .fieldsetborder{
      border: 20px solid darkblue;
      border-radius: 15px;
@@ -8,7 +13,6 @@
      background-color: rgb(255, 227, 174);
      font-size: 35px;
      border: 1px solid rgb(255, 227, 174);
-     border-radius: 5px;
 }
 .t{
      color: rgb(0, 134, 89);
@@ -17,7 +21,6 @@
 .b{
      background-color: rgb(7, 150, 102);
      border: 2px solid rgb(7, 150, 102);
-     border-radius: 5px;
      color: white;
 }
 .box{
